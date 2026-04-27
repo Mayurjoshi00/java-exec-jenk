@@ -12,7 +12,7 @@ public class MainApp {
 
         System.out.println("=== Welcome to Mini Bank System ===");
 
-        // 🧍 Personal Details
+
         System.out.print("Enter Name: ");
         String name = sc.nextLine();
 
@@ -25,7 +25,7 @@ public class MainApp {
         System.out.print("Enter Aadhaar: ");
         String aadhaar = sc.nextLine();
 
-        // 🏢 Employee Details
+
         System.out.print("Enter Company Name: ");
         String company = sc.nextLine();
 
