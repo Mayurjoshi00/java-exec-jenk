@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone') {
-            steps {
-                git 'https://github.com/Mayurjoshi00/java-exec-jenk.git'
-            }
-        }
-
         stage('Compile') {
             steps {
                 dir('src') {
